@@ -1,0 +1,171 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 20.2%;
+}
+
+.leftSide{
+    width: 20%;
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.List {
+    width: 20%;
+    height: 80%;
+    overflow-y: scroll;
+    position: absolute;
+    top: 200px;
+
+    ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-bottom: 200px;
+
+    li h2, li h3, li h4{
+        padding: 10px 0px;
+    }
+
+    li h2{
+        font-size: 20px;
+    }
+
+    li h3{
+        font-size: 16px;
+    }
+
+    li h4{
+        font-size: 14px;
+    }
+  }
+}
+
+
+.markerMes{
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    h4{
+        font-size: 14px;
+    }
+}
+
+
+.inputsearch{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:30px;
+    
+}
+
+.MaskList{
+    text-align: center;
+}
+
+.MaskListbtn{
+    background: hsl(209, 92%, 76%);
+    border: none;
+    margin-top: 50px;
+
+    &:hover{
+        border-radius: 20px;
+        transition: 0.5s;
+        background: rgb(52, 112, 168);
+        color: #fff;
+    }
+
+    &:active{
+        background: #525252;
+    }
+
+}
+
+
+.maskAdult, .maskChild{
+    border-radius: 12px;
+    border: none;
+    background:hsl(209, 92%, 76%);
+    color: rgb(7, 61, 161);
+    
+    &:hover{
+        background:  rgb(52, 112, 168);
+        color: #fff;
+    }
+
+    &:active{
+        background:  #1e4161;
+        color: #ffffff75;
+    }
+
+}
+
+.markerMes{
+    display: flex;
+    flex-direction: column;
+    h2, h3, h4{
+        padding: 5px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        background:hsl(209, 92%, 76%);
+        border-radius: 0px 0px 12px 12px;
+        h3{
+            border-radius: 0px 0px 12px 12px;
+            width: 140.5px;
+            margin-bottom: 0px;
+            padding: 18px;
+        }
+        li{
+            color: rgb(7, 61, 161);
+        }
+    }
+}
+
+
+.location{
+    background: rgb(110, 111, 112);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+.fa-clinic-medical{
+    color: #34ad34;
+}
+
+.fa-phone{
+    color: #888;
+}
+
+.fa-comment-dots{
+    color: #ff9100;
+}
+
+.fadistance{
+    margin-right: 5px;
+}

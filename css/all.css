@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  left: 20.2%;
+}
+
+.leftSide {
+  width: 20%;
+  margin: 0px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.List {
+  width: 20%;
+  height: 80%;
+  overflow-y: scroll;
+  position: absolute;
+  top: 200px;
+}
+
+.List ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 200px;
+}
+
+.List ul li h2, .List ul li h3, .List ul li h4 {
+  padding: 10px 0px;
+}
+
+.List ul li h2 {
+  font-size: 20px;
+}
+
+.List ul li h3 {
+  font-size: 16px;
+}
+
+.List ul li h4 {
+  font-size: 14px;
+}
+
+.markerMes h2 {
+  font-size: 20px;
+}
+
+.markerMes h3 {
+  font-size: 16px;
+}
+
+.markerMes h4 {
+  font-size: 14px;
+}
+
+.inputsearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.MaskList {
+  text-align: center;
+}
+
+.MaskListbtn {
+  background: #89c4fa;
+  border: none;
+  margin-top: 50px;
+}
+
+.MaskListbtn:hover {
+  border-radius: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #3470a8;
+  color: #fff;
+}
+
+.MaskListbtn:active {
+  background: #525252;
+}
+
+.maskAdult, .maskChild {
+  border-radius: 12px;
+  border: none;
+  background: #89c4fa;
+  color: #073da1;
+}
+
+.maskAdult:hover, .maskChild:hover {
+  background: #3470a8;
+  color: #fff;
+}
+
+.maskAdult:active, .maskChild:active {
+  background: #1e4161;
+  color: #ffffff75;
+}
+
+.markerMes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.markerMes h2, .markerMes h3, .markerMes h4 {
+  padding: 5px;
+}
+
+.markerMes ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 0px;
+  background: #89c4fa;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.markerMes ul h3 {
+  border-radius: 0px 0px 12px 12px;
+  width: 140.5px;
+  margin-bottom: 0px;
+  padding: 18px;
+}
+
+.markerMes ul li {
+  color: #073da1;
+}
+
+.location {
+  background: #6e6f70;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.fa-clinic-medical {
+  color: #34ad34;
+}
+
+.fa-phone {
+  color: #888;
+}
+
+.fa-comment-dots {
+  color: #ff9100;
+}
+
+.fadistance {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=all.css.map */

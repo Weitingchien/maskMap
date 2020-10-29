@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/leaflet.css">
+    <link rel="stylesheet" href="/css/L.Icon.Pulse.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/MarkerCluster.css">
+    <link rel="stylesheet" href="/css/fontasesome.all.min.css">
+    <link rel="stylesheet" href="/css/MarkerCluster.Default.css">
+
+    <title>MaskMap</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="content">
+            <div class="leftSide">
+                <div class="inputsearch">
+                    <label for="searchList">搜尋位置</label>
+                    <input type="text" class="MaskList" id="searchList" placeholder="請輸入縣/市名稱 or 縣/市名稱+鄉/鎮/區">
+                    <input type="button" value="搜尋" class="MaskListbtn" id="searchbtn" for="MaskList">
+                </div>
+                <div class="List">
+                    <ul></ul>
+                </div>
+            </div>
+            <div class="main" id="map"></div>
+        </div>
+    </div>
+   <script src="/js/all.js"></script>
+   <script src="/js/leaflet.js"></script>
+   <script src="/js/L.Icon.Pulse.js"></script>
+   <script src="/js/jquery.slim.min.js"></script>
+   <script src="/js/bootstrap.bundle.js"></script>
+   <script src="/js/fontawesome.all.min.js"></script>
+   <script src="/js/leaflet.markercluster.js"></script>
+</body>
+</html>
